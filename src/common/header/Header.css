@@ -1,0 +1,66 @@
+/* .header{
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+    
+}
+
+.button{
+    position: absolute;
+    right: 2%;
+
+}
+
+.image{
+    background-color: #ff7f7f;
+    height: 35px;
+    animation: image-rotate infinite 8s linear;
+    
+}
+
+@keyframes image-rotate {
+    from{
+        transform: rotateY(360deg);
+    }
+} */
+
+.app-header {
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+}
+
+.login-button {
+    float: right;
+}
+
+.app-logo {
+    animation: app-logo-spin infinite 8s linear;
+    height: 35px;
+    background: #ff7f7f;
+}
+
+.bookshow-button {
+    float: right;
+    margin-right: 8px;
+}
+
+@keyframes app-logo-spin {
+    from { transform: scaleX(-1); }
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.dispNone {
+    display: none;
+}
+
+.dispBlock {
+    display: block;
+}
+
+.red {
+    color: red;
+}
