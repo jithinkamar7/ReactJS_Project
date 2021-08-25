@@ -1,27 +1,3 @@
-// import React, { Component } from 'react';
-// import '../header/Header.css';
-// import logo from '../../assets/logo.svg'; 
-// import Button from '@material-ui/core/Button';
-
-// class Header extends Component {
-
-//     handleSubmit = (e) =>{
-//         e.preventDefault()
-//     }
-
-//     render() {
-//         return (
-//             <nav className='header'>
-//                 <span><img src={logo} alt='Logo' className='image'/></span>
-//                 <span className='button'><Button name='Login' variant="contained" onClick={this.handleSubmit}>LOGIN</Button></span>
-//             </nav>
-//         )
-//     }
-    
-// }
-
-// export default Header;
-
 import React, { Component } from 'react';
 import './Header.css';
 import Button from '@material-ui/core/Button';
